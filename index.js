@@ -143,7 +143,7 @@ async function startnigg(phone) {
             1,
             'N'
           )
-          const sessi = 'Mercedes&' + output.split('https://pastebin.com/')[1]
+          const sessi = 'Joel-Md&' + output.split('https://pastebin.com/')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
@@ -151,7 +151,7 @@ async function startnigg(phone) {
           await negga.sendMessage(
             negga.user.id,
             {
-              text: '*Mercedes Connected Successfully*\n\n*Marisel*\nhttps://wa.me/254740007567\n\n*Whatsapp Channel*\nhttps://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x\n\n*Deployment Tutorials*\nhttps://youtube.com/@wemacomic?si=scvCGDtmbfyIjX-O',
+              text: '*Joel-Md Connected Successfully*\n\n*Marisel*\nhttps://wa.me/255714595078\n\n*Whatsapp Channel*\nhttps://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K\n\n*Support Groups*\nhttps://chat.whatsapp.com/GxlcVwkXrPo2YwNoQI5TwS',
             },
             { quoted: guru }
           )
